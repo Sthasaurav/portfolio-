@@ -27,7 +27,7 @@ function NavBar() {
     return (
         <nav className='flex justify-between items-center w-full h-20 text-white bg-black px-4 fixed top-0 left-0 z-50'>
             <h1 className='text-5xl font-signature ml-2 '>Saurav</h1>
-            <ul className=' sphidden md:flex flex-1 justify-center space-x-6ace-x-6 hidden md:flex'>
+            <ul className=' sphidden flex-1 justify-center space-x-6ace-x-6 hidden md:flex'>
                 {links.map(({ id, link }) => (
                     <li key={id} className='hover:text-gray-500 text-gray-300 hover:scale-150 duration-200 cursor-pointer px-4 '>{link}</li>
 
