@@ -1,7 +1,7 @@
 import React from "react";
 import HeroImage from "../assets/portfolio/CV.JPG";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-
+// import SocialLink  from "./SocialLink";
 const Home = () => {
     return (
         <div
@@ -39,6 +39,8 @@ const Home = () => {
                     />
                 </div>
             </div>
+      {/* <SocialLink/> */}
+
         </div>
     );
 };
