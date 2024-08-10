@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import NavBar from './components/NavBar'
 import Home from './components/Home'
+import SocialLink from './components/SocialLink'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     <>
       <NavBar />
       <Home/>
+      <SocialLink/>
 
     </>
   )
