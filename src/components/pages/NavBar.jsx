@@ -7,7 +7,7 @@ function NavBar() {
 
     const links = [
         { id: 1, link: 'Home', path: '/' },
-        { id: 3, link: 'Portfolio', path: '/portfolio' },
+        { id: 3, link: 'Project', path: '/project' },
         { id: 4, link: 'Experience', path: '/experience' },
         { id: 2, link: 'About', path: '/about' },
 
