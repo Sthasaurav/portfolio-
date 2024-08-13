@@ -1,7 +1,6 @@
 import React from "react";
 import HeroImage from "../assets/portfolio/CV.JPG";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-// import SocialLink  from "./SocialLink";
 const Home = () => {
     return (
         <div
@@ -13,10 +12,7 @@ const Home = () => {
                         I'm a Full Stack Developer
                     </h2>
                     <p className="text-gray-600 py-4 max-w-md">
-                        I have 8 years of experience building and designing software.
-                        Currently, I love to work on web applications using technologies like
-                        React, Tailwind, Next JS, and GraphQL.
-                    </p>
+                        Aspiring Computer and Information Technology professional with robust technical skills in full-stack development and a strong foundation in software engineering principles. Proven experience in developing dynamic web and mobile applications with a keen eye for detail and user-centric design.                    </p>
 
                     <div>
                         <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
@@ -39,7 +35,6 @@ const Home = () => {
                     />
                 </div>
             </div>
-      {/* <SocialLink/> */}
 
         </div>
     );
