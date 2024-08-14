@@ -3,7 +3,8 @@ import ProjectCard from "../projectcard";
 import TipCalculator from "../projects/TipCalculator/TipCalculator";
 import tipcalImage from "../../assets/portfolio/tipcal.png"; // Import the image
 import InstaImage from "../../assets/portfolio/Insta.png";
-import FlutterImage from "../../assets/portfolio/Flutter.png"; // I
+import FlutterImage from "../../assets/portfolio/Flutter.png"; 
+import CarRental from "../../assets/portfolio/carrental.png"// I
 
 
 
@@ -24,18 +25,46 @@ const Project = () => {
       link: "https://link-to-project-one.com",
     },
     {
-      image: InstaImage,
-      title: "Instagram Clone Project",
-      description: "A clone website of Instagram showcasing the implementing CSS "
+      image: FlutterImage,
+      title: "Car Rental Mobile App ",
+      description: "A Car Rental Mobile Application created using flutter and firebase having intusive UI ",
+      link: "https://link-to-project-one.com",
+
     },
     {
-      image: FlutterImage,
-      title: "Car Rental mobile Application",
-      description: "A Car Rental Mobile App created usinf flutter and firebase having intusive UI ",
+      image: InstaImage,
+      title: "Instagram Clone Project",
+      description: "A clone website of Instagram created using HTML and CSS. "
+    },
+
+    {
+      image: CarRental,
+      title: "Car Rental Website ",
+      description: "A Car Rental website created using HTML, CSS and Javascript.",
       link: "https://link-to-project-one.com",
 
     },
     // Add more projects as needed
+    {
+      image: FlutterImage,
+      title: "Car Rental Mobile App ",
+      description: "A Car Rental Mobile Application created using flutter and firebase having intusive UI ",
+      link: "https://link-to-project-one.com",
+
+    },
+    {
+      image: InstaImage,
+      title: "Instagram Clone Project",
+      description: "A clone website of Instagram created using HTML and CSS. "
+    },
+
+    {
+      image: CarRental,
+      title: "Car Rental Website ",
+      description: "A Car Rental website created using HTML, CSS and Javascript.",
+      link: "https://link-to-project-one.com",
+
+    },
   ];
 
   return (
