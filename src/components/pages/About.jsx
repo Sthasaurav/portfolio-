@@ -1,10 +1,12 @@
 import React from "react";
+import HeroImage from "../../assets/portfolio/CV.JPG";
+
 
 const About = () => {
     return (
         <div
             name="about"
-            className="w-full min-h-screen bg-gradient-to-b from-gray-800 to-black text-white pt-20 pb-16"
+            className="w-full flex min-h-screen bg-gradient-to-b from-gray-800 to-black text-white pt-20 pb-16"
         >
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
@@ -21,21 +23,8 @@ const About = () => {
                     My journey in web development began with a fascination for programming and technology. Over the years, I have developed a strong foundation in software engineering principles and a keen interest in full-stack development. I have hands-on experience in various programming languages, including C++, JavaScript, and Dart, and I’m proficient in web technologies like HTML, CSS, Tailwind, and React, as well as mobile development with Flutter.
                 </p>
 
-                <p className="text-xl mt-4">
-                    Here are some of the key projects I’ve worked on:
-                </p>
-
-                <ul className="list-disc pl-6 mt-4">
-                    <li>
-                        <strong>Car Rental Application:</strong> Developed with Flutter and Firebase. This app features secure user login, profile management, and real-time database integration, resulting in improved user engagement and streamlined administrative tasks.
-                    </li>
-                    <li>
-                        <strong>Instagram Clone:</strong> Created using HTML, CSS, Tailwind, and JavaScript. This project highlights my frontend skills with a responsive design and intuitive user interactions.
-                    </li>
-                    <li>
-                        <strong>Car Rental Website:</strong> Engineered with HTML, CSS, Tailwind, and JavaScript, focusing on a visually appealing interface and seamless navigation.
-                    </li>
-                </ul>
+           
+                
 
                 <p className="text-xl mt-4">
                     In addition to my technical skills, I am actively involved in various training programs and have received certifications from Microsoft Learn, Developer Student Clubs, and Devtown. My interests include reading, chess, traveling, movies, and music. I am eager to apply my skills in a professional setting and contribute to innovative projects.
@@ -51,6 +40,16 @@ const About = () => {
                     <p className="text-xl">Email: sthasaurav57@gmail.com</p>
                 </div>
             </div>
+            <div className="relative pt-12 pr-7 ">
+                    <img
+                        src={HeroImage}
+                        alt="my profile"
+                        className="w-40 h-40 md:min-w-64  md:h-64 border-4 border-gray-300 shadow-xl  hover:-backdrop-hue-rotate-90 transition duration-500 mt-[-20px] ml-10 p-1"
+                        style={{
+                            borderRadius: "31% 69% 71% 29% / 45% 42% 58% 55%  ",
+                        }}
+                    />
+                </div>
         </div>
     );
 };

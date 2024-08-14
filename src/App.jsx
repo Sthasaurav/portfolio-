@@ -8,6 +8,7 @@ import SocialLink from './components/pages/SocialLink';
 import About from './components/pages/About';
 import Project from "./components/pages/Project";
 import Experience from "./components/pages/Experience";
+import TipCalculator from "./components/projects/TipCalculator/TipCalculator"
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/project" element={<Project />} />
             <Route path="/experience" element={<Experience />} />
+            <Route path="/tipcalculator" element={<TipCalculator />} />
+
           </Routes>
         </main>
         <Footer />

@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Portfolio = () => {
   return (
     <div
@@ -8,7 +9,6 @@ const Portfolio = () => {
     >
       <div className="text-center">
         <p className="text-4xl font-bold mb-4">Experience</p>
-        <p className="text-xl">Coming Soon...</p>
       </div>
     </div>
   );

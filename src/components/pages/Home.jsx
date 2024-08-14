@@ -1,7 +1,16 @@
 import React from "react";
 import HeroImage from "../../assets/portfolio/CV.JPG";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
+
 const Home = () => {
+    
+    
+    const navigate = useNavigate();
+
+    const handleButtonClick = () => {
+      navigate("/project");
+    };
     return (
         <div
             name="home"
@@ -15,7 +24,7 @@ const Home = () => {
                         Aspiring Computer and Information Technology professional with robust technical skills in full-stack development and a strong foundation in software engineering principles. Proven experience in developing dynamic web and mobile applications with a keen eye for detail and user-centric design.                    </p>
 
                     <div>
-                        <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+                        <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer" onClick={handleButtonClick}>
                             Project
                             <span className="group-hover:rotate-90 duration-300">
                                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
