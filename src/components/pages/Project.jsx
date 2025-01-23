@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import ProjectCard from "../projectcard";
 import TipCalculator from "../projects/TipCalculator/TipCalculator";
 import tipcalImage from "../../assets/portfolio/tipcal.png";

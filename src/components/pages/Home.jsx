@@ -1,4 +1,3 @@
-import React from "react";
 import HeroImage from "../../assets/portfolio/CV.JPG";
 import { MdOutlineKeyboardArrowRight,MdDownload } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
@@ -11,6 +10,9 @@ const Home = () => {
     const handleButtonClick = () => {
       navigate("/project");
     };
+
+   
+    
     return (
         <div
             name="home"
@@ -23,18 +25,22 @@ const Home = () => {
                     <p className="text-gray-600 py-4 max-w-md">
                         Aspiring Computer and Information Technology professional with robust technical skills in full-stack development and a strong foundation in software engineering principles. Proven experience in developing dynamic web and mobile applications with a keen eye for detail and user-centric design.                    </p>
 
-                    <div className="flex gap-2">
-                        <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-105 cursor-pointer" onClick={handleButtonClick}>
+                    <div className="flex gap-4">
+                        <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 transition duration-500 hover:scale-105 cursor-pointer" onClick={handleButtonClick}>
                             Project
                             <span className="group-hover:rotate-90 duration-300">
                                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
                             </span>
                         </button>
-                        <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-105 cursor-pointer" onClick={handleButtonClick}>
-                            Resume
-                            <MdDownload size={25} className="ml-1" />
-
-                        </button>
+                       
+                            <a 
+  href="cv/Saurav_Resume.pdf"
+  download
+  className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 transition duration-500 hover:scale-105 cursor-pointer"
+>
+  Resume
+  <MdDownload size={25} className="ml-1" />
+</a>
                     </div>
                 </div>
 
