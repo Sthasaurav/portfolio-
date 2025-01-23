@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Contact = () => {
   return (
@@ -7,7 +6,7 @@ const Contact = () => {
         <div className="px-6 py-4">
           <h1 className="text-3xl font-bold text-white mb-4">Contact Me</h1>
           <p className="text-white mb-6">
-            Feel free to reach out to me through any of the methods below. I'm always open to discussing new opportunities and ideas!
+            Feel free to reach out to me through any of the methods below. I&apos;m always open to discussing new opportunities and ideas!
           </p>
 
           <form action="mailto:your-email@example.com" method="POST" encType="multipart/form-data" className="space-y-4">
@@ -26,11 +25,11 @@ const Contact = () => {
             <button type="submit" className="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">Send Message</button>
           </form>
         </div>
-        <div className="bg-gray-200 py-4 text-center">
-          <p className="text-gray-700">Or connect with me on:</p>
+        <div className="bg-gray-800 py-4 text-center">
+          <p className="text-blue-600">Or connect with me on:</p>
           <div className="flex justify-center mt-4 space-x-4">
             <a href="https://www.linkedin.com/in/saurav-shrestha-b631231a3/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">LinkedIn</a>
-            <a href="https://github.com/Sthasaurav" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">GitHub</a>
+            <a href="https://github.com/Sthasaurav" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">GitHub</a>
             <a href="sthasaurav57@example.com" className="text-blue-600 hover:underline">Email</a>
           </div>
         </div>

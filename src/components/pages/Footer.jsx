@@ -7,7 +7,7 @@ function Footer() {
     <footer className="bg-gray-900 text-white py-6">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4">
         <p className="text-center md:text-left mb-4 md:mb-0 text-sm">
-          © 2024 Saurav Shrestha. All rights reserved.
+          © 2025 Saurav Shrestha. All rights reserved.
         </p>
         <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
           <a
@@ -38,7 +38,7 @@ function Footer() {
             <span>LinkedIn</span>
           </a>
           <a
-            href=""
+            href="tel:9813615835"
             target=""
             rel="noopener noreferrer"
             className="flex items-center hover:text-gray-400 transition-colors duration-300"

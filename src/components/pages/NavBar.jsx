@@ -1,9 +1,16 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 function NavBar() {
     const [nav, setNav] = useState(false);
+    const navigate = useNavigate(); // Initialize the navigate function
+
+    // Function to handle navigation when "Saurav" is clicked
+    const handleSaurav = () => {
+        navigate('/');
+    };
 
     const links = [
         { id: 1, link: 'Home', path: '/' },
@@ -16,8 +23,8 @@ function NavBar() {
 
     return (
         <nav className='flex justify-between items-center w-full h-20 text-white bg-black px-4 fixed top-0 left-0 z-50'>
-            <h1 className='text-5xl font-signature ml-2 '>Saurav</h1>
-            
+            <h1 className='text-5xl font-signature ml-2 hover:cursor-pointer' onClick={handleSaurav}>Saurav</h1>
+
             {/* Desktop Menu */}
             <ul className='hidden md:flex flex-1 justify-center space-x-6'>
                 {links.map(({ id, link, path }) => (

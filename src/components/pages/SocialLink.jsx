@@ -1,7 +1,5 @@
-import React from "react";
-import { FaGithub, FaLinkedin, FaPhoneAlt,FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
     const links = [
@@ -42,7 +40,7 @@ const SocialLinks = () => {
                     9813615835 <FaPhoneAlt size={30} />
                 </>
             ),
-            href: "#",
+            href: "tel:9813615835",
             style: "rounded-br-md",
 
         },

@@ -1,4 +1,3 @@
-import React from "react";
 import HeroImage from "../../assets/portfolio/CV.JPG";
 
 
@@ -6,7 +5,7 @@ const About = () => {
     return (
         <div
             name="about"
-            className="w-full flex min-h-screen bg-gradient-to-b from-gray-800 to-black text-white pt-20 pb-16"
+            className="w-full flex min-h-screen bg-gradient-to-b from-gray-800 to-black text-white p-20"
         >
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
@@ -36,8 +35,8 @@ const About = () => {
 
                 <div className="mt-8">
                     <p className="text-xl font-bold">Contact Information:</p>
-                    <p className="text-xl">Phone: 9813615835</p>
-                    <p className="text-xl">Email: sthasaurav57@gmail.com</p>
+                    <a className="text-xl" href="tel:9813615835">Phone: 9813615835</a><br />
+                    <a className="text-xl" href="mailto:sthasaurav57@gmail.com">Email: sthasaurav57@gmail.com</a>
                 </div>
             </div>
             <div className="relative pt-12 pr-7 ">
